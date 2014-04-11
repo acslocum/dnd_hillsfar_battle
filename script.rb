@@ -1,11 +1,17 @@
 require './combat_controller'
 
 controller = CombatController.new
-controller.add_hillsfar_platoon("Borgo", Defend.new)
-controller.add_hillsfar_platoon("Monshoonson", Defend.new)
-controller.add_hillsfar_platoon("Goethite", Defend.new)
 controller.add_hillsfar_platoon("Ssthil", Defend.new)
 controller.add_hillsfar_platoon("Skale", Defend.new)
+controller.add_hillsfar_platoon("Smith", Defend.new)
+controller.add_hillsfar_platoon("Jolwoon", Defend.new)
+controller.add_hillsfar_platoon("Blin", Defend.new)
+controller.add_hillsfar_platoon("Cooper", Defend.new)
+controller.add_hillsfar_platoon("Ellalil", Defend.new)
+controller.add_hillsfar_platoon("Drun", Defend.new)
+controller.add_warforged_platoon("Borgo", Defend.new)
+controller.add_warforged_platoon("Monshoonson", Defend.new)
+controller.add_warforged_platoon("Goethite", Defend.new)
 controller.add_warforged_platoon("Star", Daze.new)
 controller.add_warforged_platoon("Bjarn", Defend.new)
 controller.add_warforged_platoon("Blooddrop", Surge.new)

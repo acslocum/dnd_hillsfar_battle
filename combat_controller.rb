@@ -9,7 +9,7 @@ require_relative 'single_combat'
 
 
 class CombatController
-  attr_accessor :hillsfar_army, :warforged_army
+  attr_accessor :hillsfar_army, :warforged_army, :matchups
   
   def initialize
     @hillsfar_army = {}
