@@ -1,20 +1,10 @@
 
 class Commander
-  attr_accessor :name
+  attr_accessor :name, :special_attack
   
-  def initialize(name)
+  def initialize(name, special_attack)
     @name = name
+    @special_attack = special_attack
   end
-  
-  def attack_bonus
-    1
-  end
-  
-  def damage_bonus
-    3
-  end
-  
-  def feint_attack_bonus
-    2
-  end
+    
 end

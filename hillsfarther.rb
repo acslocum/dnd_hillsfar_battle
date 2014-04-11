@@ -1,6 +1,7 @@
 require_relative 'combatant'
 
 class Hillsfarther < Combatant
+  #Hillfarian - red plume
   #l18 soldier rockfire dreadnaught
   #hp:170
   #ac:34
